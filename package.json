@@ -27,7 +27,7 @@
       "typeorm": "0.2.29"
    },
    "scripts": {
-      "start": "ts-node src/index.ts",
+      "start": "ts-node-dev ./src/index.ts",
       "tsc": "tsc",
       "dev": "set debug=* &&  ts-node-dev ./src/index.ts"
    }
